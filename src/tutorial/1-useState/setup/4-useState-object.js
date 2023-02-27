@@ -10,7 +10,7 @@ const UseStateObject = () => {
     if (person.Title === "Mr") {
       setPerson({ ...person, Title: "mrs" });
     } else {
-      setPerson({ ...person });
+      setPerson({ ...person, Title: "Mr" });
     }
   };
   return (
