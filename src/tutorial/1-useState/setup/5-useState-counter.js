@@ -2,9 +2,10 @@ import React, { useState } from "react";
 
 const UseStateCounter = () => {
   const [value, setValue] = useState(0);
+
   return (
     <>
-      <h1>My counter </h1>
+      <h1>My count down to wadza's return </h1>
       <h2>{value}</h2>
       <button className="btn" onClick={() => setValue(value - 1)}>
         Decrease
